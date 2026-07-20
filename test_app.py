@@ -1,6 +1,7 @@
 # pip install fastapi uvicorn
 # uvicorn main:app --host 0.0.0.0 --port 8000
 
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 
