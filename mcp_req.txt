@@ -1,0 +1,33 @@
+| Item                             | Required    |
+| -------------------------------- | ----------- |
+| Windows Server                   | ✅           |
+| IIS Installed                    | ✅           |
+| URL Rewrite Module               | ✅           |
+| ARR Installed                    | ✅           |
+| Python 3.11                      | ✅           |
+| Virtual Environment              | ✅           |
+| Project Dependencies             | ✅           |
+| Reverse Proxy Configuration      | ✅           |
+| HTTPS/SSL Certificate            | ✅           |
+| DNS Entry                        | ✅           |
+| Windows Service                  | ✅           |
+| Service Account                  | ✅           |
+| Firewall Rules                   | ✅           |
+| Logging Enabled                  | ✅           |
+| Monitoring Enabled               | ✅           |
+| Environment Variables Configured | ✅           |
+| Deployment Access                | ✅           |
+| Outbound Network Access          | As Required |
+| Backup Strategy                  | Recommended |
+
+
+Information to Include in the Approval Request
+
+Application Name: MCP Server
+Technology Stack: Python 3.11, FastAPI/FastMCP, Uvicorn
+Hosting Platform: Windows Server with IIS (IIS used as a reverse proxy)
+Purpose: Expose MCP tools over HTTP/HTTPS for authorized MCP clients
+Authentication: Describe your chosen method (API Key, JWT, OAuth, Windows Authentication, etc.)
+Expected Users/Clients: Internal users, applications, or AI agents
+Dependencies: Databases, APIs, SFTP, LLM endpoints, or other enterprise services
+Estimated Resource Requirements: CPU, RAM, storage, and expected request volume
